@@ -94,6 +94,9 @@ header {
     position: relative;
     z-index: 3;
 }
+main .section:first-child {
+  padding-top: 0;
+}
 
 /* Section Styles */
 .section {
