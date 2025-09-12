@@ -93,11 +93,11 @@ body {
     color: purple;
     position: relative;
 }
-.skills-title {
+.skills .section-title {
     color: white; 
 }
 
-.contact-title {
+.contact .section-title {
     color: black; 
 }
 
