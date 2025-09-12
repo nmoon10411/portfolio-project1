@@ -54,6 +54,9 @@ body {
 }
 
 /* Header */
+header {
+  background-color: #ffe6f0;
+}
 .header {
   display: flex;
   justify-content: center;
