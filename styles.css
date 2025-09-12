@@ -25,9 +25,19 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+}
+.side-logo {
+  width: 80px;
+  height: auto;
+}
+
+.center-content {
+  text-align: center;
 }
 
 /* Header */
