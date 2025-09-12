@@ -68,6 +68,8 @@ header {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
 }
 
 .logo-and-info {
@@ -130,6 +132,10 @@ header {
 }
 
 /* About Section */
+.about {
+  background: linear-gradient(135deg, #ff99cc, #cc66ff); /* pink to purple */
+  color: white;
+}
 .about-text {
     font-size: 1.1rem;
     text-align: center;
