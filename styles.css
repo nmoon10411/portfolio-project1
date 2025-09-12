@@ -93,6 +93,14 @@ body {
     color: purple;
     position: relative;
 }
+.skills-title {
+    color: white; 
+}
+
+.contact-title {
+    color: black; 
+}
+
 
 .section-title::after {
     content: '';
