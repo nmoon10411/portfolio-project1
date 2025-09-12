@@ -51,41 +51,26 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    text-align: center;
-    padding: 80px 0;
-    position: relative;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
-.header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 1;
+.logo-and-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; 
 }
 
-.header .container {
-    position: relative;
-    z-index: 2;
+.side-logo {
+  width: 120px;
+  height: auto;
 }
 
-.header-name {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.header-tagline {
-    font-size: 1.3rem;
-    font-weight: 300;
-    opacity: 0.9;
+.center-content {
+  text-align: center;
 }
 
 /* Main Content */
