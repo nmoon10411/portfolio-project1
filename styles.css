@@ -90,7 +90,7 @@ header {
 
 /* Main Content */
 .main {
-    margin-top: 40px;
+    background: linear-gradient(135deg, #764ba2, #fbc2eb);
     position: relative;
     z-index: 3;
 }
