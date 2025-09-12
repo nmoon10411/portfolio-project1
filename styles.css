@@ -37,8 +37,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px; /* space between logos and center content */
-  flex-wrap: nowrap; /* prevent stacking */
+  gap: 30px; 
+  flex-wrap: nowrap; 
 }
 
 .side-logo {
